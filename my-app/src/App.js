@@ -1,25 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
+import {Link} from 'react-router-dom'
+// import HomePage from './HomePage/HomePage';
 
 function App() {
+  // const handleClick = () => {<Link to={<HomePage/>}></Link>}
+
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Welcome to the mind of Jody!
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <Link to="/HomePage" className="btn btn-primary">Take A Look!</Link>
+        {/* <button onClick={handleClick}> Take a Look</button> */}
       </header>
     </div>
   );
 }
 
 export default App;
+ 

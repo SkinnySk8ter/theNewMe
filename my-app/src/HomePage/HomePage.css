@@ -1,0 +1,23 @@
+body{
+    background-color: #282c34;
+}
+.mainContainer{
+    display:block;
+}
+.mainHeader{
+    text-align: center;
+    color: white;
+}
+.mainText{
+   text-align: center;
+    color: white;
+    position: relative;
+    max-inline-size: 50%;
+}
+.mainP{
+    position: relative;
+    left: 50%;
+}
+.card{
+    width: 18rem;
+}
