@@ -1,0 +1,57 @@
+body{
+    background-color: #282c34;
+}
+.footer {
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: rgb(235, 195, 64);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+  }
+  .linkedImg{
+      height: 10%;
+  }
+.mainContainer{
+    display:block;
+}
+.mainHeader{
+    text-align: center;
+    color: white;
+}
+.mainText{
+   text-align: center;
+    color: white;
+    position: relative;
+    max-inline-size: 50%;
+}
+.mainP{
+    position: relative;
+    left: 50%;
+}
+.cardContainer{
+    display: inline-flex;
+    gap: 40%;
+    margin-left: 50px;
+    margin-top: 80px;
+    margin-right: 50px;
+}
+.card{
+    width: 80%;
+    border-color: red;
+}
+.cardOne{
+    color: white;
+    display: flexbox;
+    border-color: white;
+    border: thick;
+    
+   
+}
+
+.extraInterests{
+    color: white;
+   
+}
